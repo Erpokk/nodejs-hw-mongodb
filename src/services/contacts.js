@@ -57,6 +57,7 @@ export const updateContact = async (contactId, payload, userId, options = {}) =>
             ...options,
         },
     );
+   
 
     if (!rawRes || !rawRes.value) {
         return null;
